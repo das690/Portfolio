@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-neoBg text-black font-sans selection:bg-neoYellow selection:text-black;
+  }
+}
